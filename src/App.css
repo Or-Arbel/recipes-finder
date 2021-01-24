@@ -1,0 +1,55 @@
+.App{
+  min-height: 100vh;
+  font-family: 'Nanum Gothic Coding', monospace;
+
+}
+body{
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  font-family: 'Nanum Gothic Coding', monospace;
+
+
+}
+  .search-form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-bar{
+    width: 50%;
+    border: none;
+    padding: 10px;
+    font-family: 'Nanum Gothic Coding', monospace;
+  }
+
+  .search-bar:hover{
+    box-shadow: 0 0 5px 2px #00000040;
+  }
+
+  .search-button{
+    background: #38ac96;
+    border: none;
+    padding: 10px 20px;
+    color: white; 
+    font-family: 'Nanum Gothic Coding', monospace;
+   
+  }
+  .search-button:hover{
+    cursor: pointer;
+  }
+
+  .recipes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 0px 10px; */
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .webTitle{
+    text-align: center;
+    /* color: #63b5df; */
+  }
+
